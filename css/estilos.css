@@ -5,6 +5,14 @@ h1{
     color: #e20000;
     font-size: 36px;
 }
+h2{
+    font-size: 22px;
+}
+h3{
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+}
 p{
     color: #6a6a6a;
     font-size: 14px;
@@ -43,6 +51,11 @@ nav .active{
 }
 #inicio .cohete:hover{
     height: 420px;
+}
+#sobre-mi{
+    background-image: url("../images/fondo-proyectos.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 #contacto{
     background-image: url("../images/fondo-contacto.png");
@@ -127,6 +140,12 @@ footer .fa-linkedin-in{
     background-color: #370a6d;
     color: white;
     border: 1px solid white;
+}
+.btn-rojo {
+    background-color: #E20000;
+    color: white;
+    font-weight: 100;
+    border-radius: 15px;
 }
 .gradiente{
     background: rgba(184,37,20,1);
