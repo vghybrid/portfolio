@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 h1{
     color: #e20000;
@@ -33,39 +34,61 @@ nav .active{
 .btn{
     background-color: white;
     color: #370a6d;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
 }
 .btn:hover{
     background-color: #370a6d;
     color: white;
 }
-#inicio{
+#inicio, #contacto{
     background-image: url("../images/fondo-contacto.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 #inicio .home p{
     color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 40px;
 }
-#inicio .cohete{
+.img-cohete{
+    height: 410px;
+}
+.cohete{
     height: 400px;
 }
-#inicio .cohete:hover{
-    height: 420px;
+.cohete:hover{
+    height: 410px;
 }
-#sobre-mi{
+.btn-inicio{
+    color: #370a6d;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 40px;
+}
+.btn-inicio:hover{
+        background-color: #370a6d ;
+        color: white ;
+}
+#sobre-mi, #proyectos{
     background-image: url("../images/fondo-proyectos.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
-#contacto{
-    background-image: url("../images/fondo-contacto.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
+#sobre-mi .img-circle{
+    margin: 1px auto;
+    display: block;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
 }
-#proyectos{
-    background-image: url("../images/fondo-proyectos.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
+#tecno .cvd{
+    height: 150px;
+    padding: 35px;
+    width: auto;
 }
 #proyectos h2{
     color: white;
@@ -158,8 +181,12 @@ footer .fa-linkedin-in{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
 }
 @media (max-width: 750px) {
-    #contacto{
+    #inicio, #contacto{
         background-image: url("../images/fondo-proyectos.png");
+    }
+    #inicio .home p {
+        color: #E20000;
+        border: 1px solid #E20000;
     }
     footer, .footer a{
         color: #6a6a6a;
