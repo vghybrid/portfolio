@@ -23,25 +23,25 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link me-5 active" href="index.html">Inicio</a>
+                            <a class="nav-link me-5 active" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link me-5" href="sobre-mi.html">Sobre mí</a>
+                            <a class="nav-link me-5" href="sobre-mi.php">Sobre mí</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link me-5" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link me-5" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            <a class="nav-link" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                     <form class="d-flex">
                         <ul class="navbar-nav me-auto mb-2 mb-md-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">ES</a>
+                                <a class="nav-link" href="index.php">ES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="en/home.html">EN</a>
+                                <a class="nav-link" href="en/home.php">EN</a>
                             </li>
                         </ul>
                     </form>
