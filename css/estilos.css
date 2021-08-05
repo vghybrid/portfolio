@@ -90,6 +90,44 @@ nav .active{
     padding: 35px;
     width: auto;
 }
+#trabajo h2{
+    color: #370a6d;
+    font-size: 22px;
+}
+#trabajo h3, #formacion h3{
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+#trabajo h4, #formacion h4{
+    font-size: 17px;
+}
+#trabajo h5, #formacion h5{
+    color: #6A6A6A;
+    font-size: 14px;
+}
+#formacion h2, #formacion h4{
+    color: #e20000;
+}
+#idiomas h2{
+    font-size: 16px;
+    font-weight: 600px;
+}
+#idiomas .cvd{
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+#idiomas .fas{
+    font-size: 80px;
+    color: white;
+}
+#idiomas ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #6A6A6A;
+    list-style-type: none;
+}
 #proyectos h2{
     color: white;
     font-size: 16px;
